@@ -1,0 +1,49 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Libre Baskerville", serif;
+
+}
+
+main{
+    min-height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3C4355;
+    color: #d1dad3;
+}
+
+main h1 {
+    padding: 20px;
+    font-size: 80px;
+    min-height: 126px;
+}
+
+main p {
+    font-size: 35px;
+    padding: 20px;
+}
+
+main button{
+    font-size: 25px;
+    width: 250px;
+    height: 80px;
+    background-color: #d1dad3;
+    color: #3C4355;
+    border-radius: 20px;
+    border: 3px solid #3C4355;
+}
+
+main button:hover{
+    background-color: #3C4355;
+    color: #d1dad3;
+    border-color: #d1dad3;
+}
+
